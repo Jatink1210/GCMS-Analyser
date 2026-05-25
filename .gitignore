@@ -1,0 +1,27 @@
+# --- Generated artefacts (rebuilt on every run) -----------------------------
+output/
+*.docx
+
+# --- Auto-generated user-data files (rebuilt on every run, kept locally) ---
+data/samples_template.csv
+data/quality_template.json
+data/project_template.json
+data/pubchem_cache.json
+
+# --- User input data (not tracked; size can be several GB per study) -------
+data/PDFs/*.pdf
+data/CDFs/
+
+# --- Python bytecode / virtual envs / IDE artefacts ------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+
+# --- IDE / OS noise --------------------------------------------------------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

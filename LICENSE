@@ -1,0 +1,65 @@
+GC-MS Metabolic Profiling Tool — License
+
+Copyright (c) 2025 Jatin Kansal
+ORCID: https://orcid.org/0009-0002-3466-8773
+
+All rights reserved.
+
+TERMS AND CONDITIONS
+
+1. ACADEMIC, RESEARCH, AND PERSONAL USE
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files (the "Software"),
+   to use, copy, modify, and distribute the Software for academic, research,
+   educational, and personal non-commercial purposes, subject to the following
+   conditions:
+
+   a. The above copyright notice and this permission notice shall be included
+      in all copies or substantial portions of the Software.
+
+   b. Any published work (papers, theses, reports, presentations, posters,
+      or similar) that uses this Software or its outputs must cite the author
+      as specified in CITATION.cff.
+
+2. COMMERCIAL USE
+
+   Commercial use of this Software — including but not limited to use in
+   commercial products, services, consulting, contract research performed
+   for commercial entities, or any activity primarily intended for commercial
+   advantage or monetary compensation — is NOT permitted without prior
+   written permission from the author.
+
+   To request a commercial license, contact:
+
+       Jatin Kansal
+       Email: jatinkansal1210@gmail.com
+       ORCID: https://orcid.org/0009-0002-3466-8773
+
+3. REDISTRIBUTION
+
+   Redistribution of this Software, with or without modification, is
+   permitted for non-commercial purposes only, provided that:
+
+   a. The above copyright notice, this permission notice, and the
+      attribution requirements are retained in all copies.
+
+   b. Modified versions are clearly marked as such and must not be
+      misrepresented as the original Software.
+
+4. THIRD-PARTY DATA
+
+   This Software queries PubChem (public-domain, U.S. Government Open Data
+   policy) and processes data from NIST mass-spectral libraries. Users are
+   responsible for complying with their own NIST / Shimadzu GCMSsolution
+   license terms.
+
+5. DISCLAIMER
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+   IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.

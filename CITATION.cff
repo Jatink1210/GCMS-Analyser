@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below.
+  For commercial use, written permission is required — contact the author.
+title: "GC-MS Metabolic Profiling Tool"
+type: software
+authors:
+  - family-names: Kansal
+    given-names: Jatin
+    email: jatinkansal1210@gmail.com
+    orcid: "https://orcid.org/0009-0002-3466-8773"
+repository-code: "https://github.com/Jatink1210/GCMS-Analyser"
+url: "https://github.com/Jatink1210/GCMS-Analyser"
+license: LicenseRef-Custom
+keywords:
+  - GC-MS
+  - gas chromatography
+  - mass spectrometry
+  - metabolomics
+  - metabolic profiling
+  - PubChem
+  - cheminformatics
+  - Shimadzu
+  - data analysis
+abstract: >-
+  A self-contained, fully data-driven Python tool that converts Shimadzu
+  QUALITATIVE ANALYSIS REPORT PDFs into a complete metabolic-profiling
+  deliverable: cleaned identifications, abundance matrix, alpha-diversity
+  statistics, PCA ordination, compound-class heatmaps, shared/unique
+  metabolite tables, and publication-ready Word reports.
+version: "1.0.0"
+date-released: "2025-01-01"

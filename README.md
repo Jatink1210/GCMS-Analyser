@@ -100,8 +100,8 @@ relevant headings.
 ### Install
 
 ```bash
-git clone <this-repo>           # or copy the GCMS/ folder
-cd GCMS
+git clone https://github.com/Jatink1210/GCMS-Analyser.git
+cd GCMS-Analyser
 python -m venv .venv            # optional but recommended
 . .venv/Scripts/activate        # Windows
 # . .venv/bin/activate          # macOS / Linux
@@ -218,6 +218,8 @@ GCMS/
 ├── gcms_tool.py                       # single command-line entrypoint
 ├── requirements.txt
 ├── README.md                          # this file
+├── LICENSE                            # custom license (see §15)
+├── CITATION.cff                       # citation metadata for GitHub
 └── .gitignore
 ```
 
@@ -725,18 +727,67 @@ Word reports                        (Step 5)
 
 ## 15. License & citation
 
-This tool was developed for academic / research use. PubChem data is
-public-domain under the U.S. Government Open Data policy. NIST library
-data belongs to NIST and your local GCMSsolution license.
+### Author
 
-If you use the tool in a publication, please cite:
+**Jatin Kansal**
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0002--3466--8773-green?logo=orcid)](https://orcid.org/0009-0002-3466-8773)
+📧 [jatinkansal1210@gmail.com](mailto:jatinkansal1210@gmail.com)
 
-- **PubChem PUG REST** —
-  Kim S. *et al.* PubChem 2023 update. *Nucleic Acids Research* 51(D1),
-  D1373-D1380, 2023.
+### License
 
-(A formal citation entry for this tool will be added once a permanent
-identifier is issued.)
+This project is released under a **custom license** (see [`LICENSE`](LICENSE)).
+
+| Use case | Permitted? |
+|----------|------------|
+| Academic / research / educational / personal | ✅ Yes — free of charge, with citation |
+| Commercial use (products, services, consulting, contract research, etc.) | ❌ **No** — requires prior written permission |
+
+> **Commercial use** of this Software — including but not limited to use
+> in commercial products, services, consulting, contract research
+> performed for commercial entities, or any activity primarily intended
+> for commercial advantage or monetary compensation — is **not permitted**
+> without prior written permission from the author.
+>
+> To request a commercial license, email:
+> **[jatinkansal1210@gmail.com](mailto:jatinkansal1210@gmail.com)**
+
+### Citation
+
+If you use this tool or its outputs in a publication, thesis, report, or
+presentation, please cite it as follows:
+
+```text
+Kansal, J. (2025). GC-MS Metabolic Profiling Tool (Version 1.0.0)
+[Computer software]. https://github.com/Jatink1210/GCMS-Analyser
+ORCID: https://orcid.org/0009-0002-3466-8773
+```
+
+A [`CITATION.cff`](CITATION.cff) file is included so GitHub can
+automatically generate APA and BibTeX citation formats — look for the
+**"Cite this repository"** button on the repository page.
+
+**BibTeX:**
+
+```bibtex
+@software{kansal2025gcms,
+  author       = {Kansal, Jatin},
+  title        = {{GC-MS Metabolic Profiling Tool}},
+  year         = {2025},
+  url          = {https://github.com/Jatink1210/GCMS-Analyser},
+  version      = {1.0.0}
+}
+```
+
+Please also cite **PubChem** if you use the online enrichment feature:
+
+> Kim S. *et al.* PubChem 2023 update. *Nucleic Acids Research* 51(D1),
+> D1373–D1380, 2023.
+
+### Third-party data
+
+- **PubChem** — public-domain under the U.S. Government Open Data policy.
+- **NIST mass-spectral library** — belongs to NIST; users must comply
+  with their own GCMSsolution / NIST license terms.
 
 ---
 
